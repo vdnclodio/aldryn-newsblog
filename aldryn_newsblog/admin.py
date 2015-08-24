@@ -61,7 +61,6 @@ class ArticleAdminForm(TranslatableModelForm):
             'slug',
             'tags',
             'title',
-            'content',
         ]
 
     def __init__(self, *args, **kwargs):
@@ -119,7 +118,6 @@ class ArticleAdmin(
                 'categories',
                 'lead_in',
                 'related',
-                'content',
             )
         }),
         ('Meta options', {
