@@ -118,6 +118,7 @@ class ArticleAdmin(
                 'categories',
                 'lead_in',
                 'related',
+                'content',
             )
         }),
         ('Meta options', {
