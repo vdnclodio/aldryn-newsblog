@@ -61,6 +61,7 @@ class ArticleAdminForm(TranslatableModelForm):
             'slug',
             'tags',
             'title',
+            'content',
         ]
 
     def __init__(self, *args, **kwargs):
